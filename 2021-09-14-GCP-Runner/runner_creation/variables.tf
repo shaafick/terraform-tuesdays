@@ -68,16 +68,19 @@ variable "restart_policy" {
 variable "org_url" {
   type        = string
   description = "Org URL for the Github Action"
+  default     = "https://github.com/GHLearnShaafick"
 }
 
 variable "org_name" {
   type        = string
   description = "Name of the org for the Github Action"
+  default     = "GHLearnShaafick"
 }
 
 variable "gh_token" {
   type        = string
   description = "Github token that is used for generating Self Hosted Runner Token"
+  default     = "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"
 }
 
 variable "instance_name" {
